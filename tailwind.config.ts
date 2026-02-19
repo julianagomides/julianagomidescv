@@ -12,6 +12,10 @@ export default {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      display: ['Playfair Display', 'Georgia', 'serif'],
+      body: ['Inter', 'system-ui', 'sans-serif'],
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -57,6 +61,13 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        'surface-dark': "hsl(var(--surface-dark))",
+        'surface-dark-mid': "hsl(var(--surface-dark-mid))",
+        'surface-light-mid': "hsl(var(--surface-light-mid))",
+        'text-on-dark': "hsl(var(--text-on-dark))",
+        'text-on-dark-bright': "hsl(var(--text-on-dark-bright))",
+        'text-on-light': "hsl(var(--text-on-light))",
+        'text-on-light-muted': "hsl(var(--text-on-light-muted))",
       },
       borderRadius: {
         lg: "var(--radius)",
